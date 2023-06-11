@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Hotel</title>
+	<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">   
+	<link href="https://fonts.googleapis.com/css2?family=Assistant:wght@700&display=swap" rel="stylesheet">  
+	<link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="hotel.css">
+    <link rel="stylesheet" href="mountain.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+	<div class="first">
+		<a href="main.html"><h1 class="name">kiin</h1></a>
+        <hr id="h-line-1">
+        <div class="h-first-content">
+            <h4 id="h-first-content-item2">THE</h4>
+            <h1>HOTEL</h1>
+            <h4 id="h-first-content-item">RESERVATION</h4>
+            <div class="h-first-text">
+                <p>Click to create a new font pairing, to lock fonts that you want to keep, and to choose a font manually. The text is editable, try replacing it with your company. <br><br>Click to create a new font pairing, to lock fonts that you want to keep, and to choose a font manually. The text is editable, try replacing it with your, and to choose a font manually. The text is editable, try replacing it with your.</p>
+            </div>
+        </div>
+        <img class="first-image" src="images/h-1.png" alt="mountain">
+		<img onclick="toggleSubMenu()" src="icons/menu2.svg" alt="menu" id="h-first-menu-icon2">
+		<div id="first-menu">
+			<img onclick="toggleSubMenu()" src="icons/menu.svg" alt="menu" id="first-menu-icon">
+			<a href="main.html"><p id="first-menu-1" >Home</p></a>
+			<p id="first-menu-moun" onclick="toggleSubSubmenu()">Mountains</p>
+			<div id="first-submenu">
+				<a href="mountain1.html"><p >> Snowmass</p></a>
+				<a href="mountain2.html"><p>> MT Daily</p></a>
+				<a href="mountain3.html"><p>> Sheep</p></a>
+			</div>
+			<a href="events.html"><p>Events</p></a>
+			<a href="hotel.html"><p>Hotel</p></a>
+		</div>
+    </div>
+    
+    <div class="h-second">
+        <img class="m-second-image" src="images/h-2.png" alt="mountain">
+        <div class="h-second-content">
+            <hr id="h-line-2">
+            <h2>Coeur des Alpes</h2>
+            <h4>(111)-455-556</h4>
+            <div class="h-second-content-columns">
+                <div class="h-second-content-1">
+                    <div class="input name_container">
+                        <input type="text" id="input-1" class="transparent-input" placeholder="&nbsp;" />
+                        <label for="transparent-input" class="input-label">Enter your name ...</label>
+                        <div class="input-line"></div>
+                    </div>
+                    <div class="input number_container">
+                        <input type="text" id="input-2" class="transparent-input" placeholder="&nbsp;" />
+                        <label for="transparent-input" class="input-label">Enter your phone ...</label>
+                        <div class="input-line"></div>
+                    </div>
+                    <div class="input email_container">
+                        <input type="text" id="input-3" class="transparent-input" placeholder="&nbsp;" />
+                        <label for="transparent-input" class="input-label">Enter your email address...</label>
+                        <div class="input-line"></div>
+                    </div>
+                </div>
+                <div class="h-second-content-2">
+                    <div class="input message-container">
+                        <label for="transparent-input" class="input-label">Adults</label>
+                            <select class="number" id="input-4" name="number">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                        </select>
+                        <div class="input-line"></div>
+                    </div>
+                    <div class="input message-container">
+                        <label for="transparent-input" class="input-label">Children</label>
+                        <select class="number" id="input-5" name="number">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                          </select>
+                        <div class="input-line"></div>
+                    </div>
+                    <div class="input email_container">
+                        <input type="date" class="date" id="input-6" name="date" min="2023-06-18" max="2023-08-27">
+                        <label for="transparent-input" class="input-label input-date-label">Date of arrival</label>
+                        <div class="input-line"></div>
+                    </div>
+                    <div class="input email_container">
+                        <input type="date" class="date" id="input-7" name="date" min="2023-06-18" max="2023-08-27">
+                        <label for="transparent-input" class="input-label input-date-label">Departure date</label>
+                        <div class="input-line"></div>
+                    </div>
+                </div>
+            </div>
+            <button onclick="checkInputs()" id="contacts_button">Check availability</button>
+        </div>
+    </div>
+
+    <div class="h-third">
+        <div class="h-third-content">
+            <h1>Coeur des Alpes</h1>
+            <h4>hotel</h4>
+            <p>Click to create a new font pairing, to lock fonts that you want to keep, and to choose a font manually. The text is editable, try replacing it with your company. Click to create a new font pairing, to lock fonts that you want to keep, and to choose a font manually.  </p>
+        </div>
+        <img src="images/h-3.png" alt="mountain">
+    </div>
+
+    <div class="h-fourth">
+        <hr id="h-line-3">
+        <div class="m-third-news">
+            <div>
+                <img class="m-third-news-image" src="images/m-news-1.jpg" alt="news">
+                <p class="m-third-news-date">02/05</p>
+                <p class="m-third-news-text">The goal of font pairing is to select fonts that overarching theme yet have pairing is</p>
+                <button onclick="openEvents()" class="m-third-news-button">
+                    <p id="m-third-news-button-text">More</p>
+                    <img id="m-third-news-button-line" src="icons/white-arrow.svg" alt="arrow">
+                </button>
+            </div>
+            <div>
+                <img class="m-third-news-image" src="images/main_news_4.png" alt="news">
+                <p class="m-third-news-date">02/05</p>
+                <p class="m-third-news-text">The goal of font pairing is to select fonts that overarching theme yet have pairing is</p>
+                <button onclick="openEvents()" class="m-third-news-button">
+                    <p id="m-third-news-button-text">More</p>
+                    <img id="m-third-news-button-line" src="icons/white-arrow.svg" alt="arrow">
+                </button>
+            </div>
+            <div>
+                <img class="m-third-news-image" src="images/m-news-3.png" alt="news">
+                <p class="m-third-news-date">02/05</p>
+                <p class="m-third-news-text">The goal of font pairing is to select fonts that overarching theme yet have pairing is</p>
+                <button onclick="openEvents()" class="m-third-news-button">
+                    <p id="m-third-news-button-text">More</p>
+                    <img id="m-third-news-button-line" src="icons/white-arrow.svg" alt="arrow">
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="h-fifth">
+        <div></div>
+        <img src="images/h-4.png" alt="mountain">
+    </div>
+
+	<div class="footer">
+		<h1 class="name">kiin</h1>
+		<div class="footer-c">
+			<img src="icons/с.svg" alt="c">
+			<p>kiin. All Rights Reserved.</p>
+		</div>
+		<div class="footer-moreinfo">
+			<h4>More info</h4>
+			<div id="footer-moreinfo-more">
+				<div id="footer-moreinfo-more-1">
+					<p>Media</p>
+					<p>Policies</p>
+					<p>International Guests</p>
+					<p>Employment</p>
+					<p>Security</p>
+				</div>
+				<div>
+					<p>Group</p>
+					<p>Location</p>
+					<p>Promotions</p>
+					<p>Call Us: 700-767-001</p>
+				</div>
+			</div>
+		</div>
+		<div class="footer-email">
+			<h3>Email sign up</h3>
+			<p>Sign up to receive news, updates and promotions from<br>kiin via email.</p>
+			<input type="email" placeholder="Enter your email address ..." id="footer-email-input">
+			<button id="footer-email-button" onclick="checkInput()">Sign up</button>
+			<div class="footer-social">
+				<img src="icons/youtube.svg" alt="youtube">
+				<img src="icons/twitter.svg" alt="twitter">
+				<img src="icons/facebook.svg" alt="facebook">
+				<img src="icons/instagram.svg" alt="instagram">
+			</div>
+		</div>
+		
+	</div>
+
+    <script src="email.js"></script>
+    <script src="check.js"></script>
+    <script src="event.js"></script>
+	<script src="menu.js"></script>
+</body>
+</html>

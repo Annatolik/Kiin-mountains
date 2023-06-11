@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Events</title>
+	<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">   
+	<link href="https://fonts.googleapis.com/css2?family=Assistant:wght@700&display=swap" rel="stylesheet">  
+	<link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="events.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+	<div class="first">
+		<a href="main.html"><h1 class="name">kiin</h1></a>
+		<hr id="e-line-1">
+        <hr id="e-line-2">
+		<div class="e-first-text">
+			<div class="e-first-texts">
+                <h2 id="e-first-the">THE</h2>
+                <h2 id="e-first-name">EVENTS</h2>
+                <h2 id="e-first-mountain">MOUNTAIN</h2>
+            </div>
+		</div>
+        <div class="e-first-content">
+            <p>Click to create a new font pairing, to lock fonts that you want to keep, and to choose a font manually. The text is editable, try replacing it with your company.</p>
+            <p id="e-first-content-2">Click to create a new font pairing, to lock fonts that you want to keep, and to choose a font manually. The text is editable, try replacing it with your, and to choose a font manually. The text is editable, try replacing it with your.</p>
+        </div>
+		<img onclick="toggleSubMenu()" src="icons/menu2.svg" alt="menu" id="first-menu-icon2">
+		<div id="first-menu">
+			<img onclick="toggleSubMenu()" src="icons/menu.svg" alt="menu" id="first-menu-icon">
+			<a href="main.html"><p id="first-menu-1" >Home</p></a>
+			<p id="first-menu-moun" onclick="toggleSubSubmenu()">Mountains</p>
+			<div id="first-submenu">
+				<a href="mountain1.html"><p >> Snowmass</p></a>
+				<a href="mountain2.html"><p>> MT Daily</p></a>
+				<a href="mountain3.html"><p>> Sheep</p></a>
+			</div>
+			<a href="events.html"><p>Events</p></a>
+			<a href="hotel.html"><p>Hotel</p></a>
+		</div>
+        <img class="e-first-back" src="images/e-1.png" alt="image">
+    </div>
+    <hr id="e-line-3">
+
+    <div class="e-second">
+        <div class="e-second-div">
+            <div class="e-second-under">
+                <h4 class="e-second-title">skiing.</h4>
+                <p class="e-second-text">Click to create a new font pairing, to lock fonts that you want to keep, and to choose a font manually. The text is editable, try replacing it with your company.</p>
+            </div>
+            <img src="images/e-2.png" alt="">
+        </div>
+        <div class="e-second-div2">
+            <div class="e-second-under">
+                <h4 class="e-second-title">travel.</h4>
+                <p class="e-second-text">Click to create a new font pairing, to lock fonts that you want to keep, and to choose a font manually. The text is editable, try replacing it with your company.</p>
+            </div>
+            <img src="images/e-3.png" alt="">
+        </div>
+        <div class="e-second-div">
+            <div class="e-second-under">
+                <h4 class="e-second-title">climbing.</h4>
+                <p class="e-second-text">Click to create a new font pairing, to lock fonts that you want to keep, and to choose a font manually. The text is editable, try replacing it with your company.</p>
+            </div>
+            <img src="images/e-4.png" alt="">
+        </div>
+    </div>
+
+    <div class="e-third">
+        <div class="e-third-1">
+            <h4>2.462</h4>
+            <p>Click to create a new font pairing</p>
+        </div>
+        <div>
+            <h4>201</h4>
+            <p>Click to create a new font pairing</p>
+        </div>
+        <div>
+            <h4>47</h4>
+            <p>Click to create a new font pairing</p>
+        </div>
+        <h1>Numbers we are<br>proud of</h1>
+    </div>
+    <img id="e-third-image" src="images/e-5.png" alt="mountain">
+
+    <div class="e-fourth">
+        <hr id="e-line-4">
+        <div class="e-fourth-content">
+            <h1 class="e-fourth-content-light">Don’t miss the</h1>
+            <div class="e-fourth-content-split">
+                <h1 class="e-fourth-content-light">opportunity </h1>
+                <h1 class="e-fourth-content-dark">to ride</h1>
+            </div>
+            <h1 class="e-fourth-content-dark">horses</h1>
+            <p>Click to create a new font pairing, to lock fonts that you want to keep, and to choose a font manually. The text is editable, try replacing it with your company. </p>
+            <div class="fourth-input">
+                <input type="email" placeholder="Enter your email address ..." id="fourth-email-input">
+                <button id="fourth-email-button" onclick="checkInput()">Sign up</button>
+            </div>
+        </div>
+        <img src="images/e-6.png" alt="mountain">
+    </div>
+
+	<div class="footer">
+		<h1 class="name">kiin</h1>
+		<div class="footer-c">
+			<img src="icons/с.svg" alt="c">
+			<p>kiin. All Rights Reserved.</p>
+		</div>
+		<div class="footer-moreinfo">
+			<h4>More info</h4>
+			<div id="footer-moreinfo-more">
+				<div id="footer-moreinfo-more-1">
+					<p>Media</p>
+					<p>Policies</p>
+					<p>International Guests</p>
+					<p>Employment</p>
+					<p>Security</p>
+				</div>
+				<div>
+					<p>Group</p>
+					<p>Location</p>
+					<p>Promotions</p>
+					<p>Call Us: 700-767-001</p>
+				</div>
+			</div>
+		</div>
+		<div class="footer-email">
+			<h3>Email sign up</h3>
+			<p>Sign up to receive news, updates and promotions from<br>kiin via email.</p>
+			<input type="email" placeholder="Enter your email address ..." id="footer-email-input">
+			<button id="footer-email-button" onclick="checkInput()">Sign up</button>
+			<div class="footer-social">
+				<img src="icons/youtube.svg" alt="youtube">
+				<img src="icons/twitter.svg" alt="twitter">
+				<img src="icons/facebook.svg" alt="facebook">
+				<img src="icons/instagram.svg" alt="instagram">
+			</div>
+		</div>
+		
+	</div>
+
+    <script src="email2.js"></script>
+    <script src="email.js"></script>
+	<script src="menu.js"></script>
+</body>
+</html>
