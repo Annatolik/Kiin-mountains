@@ -41,10 +41,10 @@ var transporter = nodemailer.createTransport(smtpConfig);
   });
 });
 
-app.use(express.static(path.resolve(__dirname, 'Mountains')))
+app.use(express.static(path.resolve(__dirname, 'frontend')))
 
 app.get('*', (req, res) => {
-    res.sendFile(path.resolve(__dirname, 'Mountains', 'main.html'))
+    res.sendFile(path.resolve(__dirname, 'frontend', 'main.html'))
 })
 
 

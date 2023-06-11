@@ -18,7 +18,7 @@ $(function() {
         scrollImage.attr("src", "images/main_2.png");
         scrollText.find("h1").text("SNOWMASS");
         scrollText.find("h3").text("mountain");
-        scrollText.find("p").text("Click to create a new font pairing, to lock fonts that you want to keep, and to choose a font manually. The text is editable, try replacing it with your company ...");
+        scrollText.find("p").text("Our mountain is a majestic masterpiece that captivates the senses and invites you to embark on an unforgettable adventure.");
         scrollTextCount.css("color", "#FFFFFF");
         imageDiv.style.opacity = "1";
       }, 500); // Затримка перед зміною зображення
@@ -28,7 +28,7 @@ $(function() {
         scrollImage.attr("src", "images/main_3.png");
         scrollText.find("h1").text("MT DALY");
         scrollText.find("h3").text("mountain");
-        scrollText.find("p").text("Click to create a new font pairing, to lock fonts that you want to keep, and to choose a font manually. The text is editable, try replacing it with your company ...");
+        scrollText.find("p").text("Rising proudly into the sky, our mountain stands as a testament to the earth's raw power and beauty. ");
         scrollTextCount.css("color", "#20363A");
         imageDiv.style.opacity = "1";
       }, 500); // Затримка перед зміною зображення
@@ -38,7 +38,7 @@ $(function() {
         scrollImage.attr("src", "images/main_4.png");
         scrollText.find("h1").text("SHEEP");
         scrollText.find("h3").text("mountain");
-        scrollText.find("p").text("Click to create a new font pairing, to lock fonts that you want to keep, and to choose a font manually. The text is editable, try replacing it with your company ...");
+        scrollText.find("p").text("Whether you're an avid hiker or a leisurely stroller, our mountain boasts a network of scenic trails that weave through lush forests, babbling streams, and alpine meadows.");
         scrollTextCount.css("color", "#D1D1D1");
         imageDiv.style.opacity = "1";
       }, 500); // Затримка перед зміною зображення
